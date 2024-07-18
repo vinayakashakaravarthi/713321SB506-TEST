@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #fff;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+main {
+    padding: 2em;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.profile-avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 2em;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 2em;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.profile-bio {
+    margin: 0;
+    font-style: italic;
+}
+
+.profile-posts {
+    margin-top: 2em;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1em;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
